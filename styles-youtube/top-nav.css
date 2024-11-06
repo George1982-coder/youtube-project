@@ -1,0 +1,90 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: fixed;
+    background-color:white;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    z-index: 1;
+    
+}
+.left-section{
+    display: flex;
+}
+.humburger-menu-icon{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.youtube-logo-icon{
+    width: 90px;
+    cursor: pointer;
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    align-items: center;
+    }
+.search-bar{
+    flex: 1;
+    height: 35px;
+    border: 1px solid blue;
+    width: 0;
+    }
+.search-bar::placeholder{
+    font-size: 15px;
+    color: rgb(138, 133, 133);
+    padding-left: 10px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+.search-button{
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid rgb(128, 123, 123);
+    cursor: pointer;
+    margin-right: 10px;
+    }
+.search-icon{
+    width: 22px;
+}
+.voice-search-button{
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 34px;
+    padding: 5px;
+    }
+.voice-search-icon{
+    width: 25px;
+}
+.upload-photo{
+    width: 25px;
+    margin-right: 23px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.youtube-apps{
+    width: 25px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+.notification{
+    width: 25px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+.my-chanel{
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    
+}
