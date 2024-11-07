@@ -1,73 +1,62 @@
-
-  .thumbnail {
-    width: 100%;
-  }
-  .thumbnail-text{
-    position: relative;
-  }
-  .time{
-    position: absolute;
-    bottom: 10px;
-    background-color: black;
-    color: white;
-    margin-right: 5px;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3px;
-    border-radius: 5px;
-    right: 0;
-    
-
-  }
-  .thumbnail-row {
-    width: 100%;
-
-  }
-  .video-title {
-    font-weight: 600;
-    line-height: 22px;
-    font-size: 14px;
-  }
-  .grid-video-info {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-  }
-  .channel-picture {
-    margin-right: 20px;
-  }
-  .profile-picture {
-    width: 40px;
-    border-radius: 50px;
-  }
-  .video-author,
-  .video-stats {
-    color: rgb(106, 104, 104);
-    line-height: 22px;
-    font-size: 12px;
-  }
+.thumbnail {
+  width: 100%;
+}
+.thumbnail-text {
+  position: relative;
+}
+.time {
+  position: absolute;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
+  border-radius: 5px;
+  right: 0;
+}
+.thumbnail-row {
+  width: 100%;
+}
+.video-title {
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 14px;
+}
+.grid-video-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.channel-picture {
+  margin-right: 20px;
+}
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+}
+.video-author,
+.video-stats {
+  color: rgb(106, 104, 104);
+  line-height: 22px;
+  font-size: 12px;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-left: 80px;
+}
+@media (max-width: 1000px) {
   .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 40px;
-    margin-left: 80px;  
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  @media (max-width: 1000px) {
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+}
+@media (max-width: 980px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-  @media (max-width: 800px) {
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  @media (max-width: 700px) {
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-  }
-  
+}
